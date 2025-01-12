@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="titre">Formulaire</h1>
+    <div class="formulaire">
+        <form action="" method="post">
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Nom" >
+            <div id="erreur_nom" class="erreur_message"></div>
+
+            <label for="prenom">Prenom :</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Prenom" >
+            <div id="erreur_prenom" class="erreur_message"></div>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Email" >
+            <div id="erreur_email" class="erreur_message"></div>
+
+            <label for="date">Date de naissance :</label>
+            <input type="date" id="date" name="date" >
+            <div id="erreur_date" class="erreur_message"></div>
+
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse" placeholder="Adresse" >
+            <div id="erreur_adresse" class="erreur_message"></div>
+
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" >
+            <div id="erreur_password" class="erreur_message"></div>
+
+            <label for="password">Confirm password :</label>
+            <input type="password" id="confirm_password" name="confirm_password" >
+            <div id="erreur_confirm_password" class="erreur_message"></div>
+
+            <button id="valider" type="submit">Valider</button>
+
+        </form>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
